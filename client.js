@@ -17,7 +17,7 @@ const client = new Client({
       webVersionCache: {
     type: 'remote',
     remotePath: 'https://raw.githubusercontent.com/wppconnect-team/wa-version/main/html/2.3000.1017056488-alpha.html',
-  }
+  },
       authTimeoutMs: 0,
   qrMaxRetries: 5
 });
