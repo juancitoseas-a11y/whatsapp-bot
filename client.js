@@ -1,3 +1,4 @@
+require('http').createServer((req,res)=>{res.end('Bot activo')}).listen(process.env.PORT || 10000);
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const fs = require('fs');
